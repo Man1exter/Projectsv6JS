@@ -21,7 +21,7 @@ const divide = () =>{
     span2.innerText = sumsNew;
 };
 
-button1.addEventListener("click", multiply);
+button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
 
 sums(10,10);
