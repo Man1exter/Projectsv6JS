@@ -1,22 +1,28 @@
-let score;
+
 const button1 = document.querySelector(".plus");
 const button2 = document.querySelector(".minus");
-const p1 = document.querySelector("p");
+const span1 = document.querySelector(".one");
+const span2 = document.querySelector(".two");
 
-const sums = (first,second) => {
- first + second == score;
+let $score;
+
+const sums = (first, second) => {
+     $score = first + second;
+     span1.innerHTML = $score;
 };
 
 const multiply = () => {
+     const sumsNew = $score / 2;
+     span2.innerText = sumsNew;
 
 };
 const divide = () =>{
-
+    const sumsNew = $score * 2;
+    span2.innerText = sumsNew;
 };
 
 button1.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
 
-sums();
-sums2();
-sums3();
+sums(10,10);
+
