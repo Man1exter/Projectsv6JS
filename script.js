@@ -7,7 +7,16 @@ const sums = (first,second) => {
  first + second == score;
 };
 
-const sums2 = () => {
+const multiply = () => {
 
 };
+const divide = () =>{
+
+};
+
+button1.addEventListener("click", multiply);
+button1.addEventListener("click", divide);
+
 sums();
+sums2();
+sums3();
