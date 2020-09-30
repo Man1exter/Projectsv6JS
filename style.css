@@ -43,3 +43,10 @@ p:hover{
     color: yellow;
     border: 4px solid green;
 }
+span{
+    color: green;
+    transition: .3s linear;
+}
+span:hover{
+    color: black;
+}
