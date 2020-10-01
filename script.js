@@ -4,6 +4,11 @@ const button2 = document.querySelector(".minus");
 const span1 = document.querySelector(".one");
 const span2 = document.querySelector(".two");
 
+
+const clicker = document.querySelector(".fa-arrow-alt-circle-down");
+
+
+
 let $score;
 
 const sums = (first, second) => {
@@ -25,4 +30,6 @@ button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
 
 sums(10,10);
+
+
 
