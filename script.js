@@ -15,7 +15,7 @@ const bnt2 = document.querySelector(".buttonY");
 const bnt3 = document.querySelector(".buttonZ");
 const tep = document.querySelector(".mon");
 
-let $size = 30;
+let $size = 50;
 
 let $score;
 
@@ -40,15 +40,15 @@ const positionY = () => {
 
 
 const ones = () => {
-     const $sizeNew = $size + 1;
-      tep = $sizeNew;
+     $size += 5;
+     tep.style.fontSize = $size + 'px';
 };
 const oness = () => {
-     const $sizeNew = $size - 1;
-     tep = $sizeNew;
+     $size -= 5;
+     tep.style.fontSize = $size - 'px';
 };
 const onesss = () => {
-     
+    
 };
 
 
