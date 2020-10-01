@@ -61,6 +61,7 @@ span:hover{
  height: 1000px;
  border: 5px solid green;
  margin-left: 25%;
+ transition: .3s linear;
 }
 .zbz{
 z-index: 2;
