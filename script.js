@@ -15,7 +15,7 @@ const bnt2 = document.querySelector(".buttonY");
 const bnt3 = document.querySelector(".buttonZ");
 const tep = document.querySelector(".mon");
 
-
+let size = 30;
 
 let $score;
 
@@ -36,7 +36,29 @@ const divide = () =>{
 const positionY = () => {
      clicker.classList.toggle("roll");
      ele.classList.toggle("move");
-}
+};
+
+
+const ones = () => {
+
+};
+const oness = () => {
+     
+};
+const onesss = () => {
+     
+};
+
+
+
+
+
+
+
+
+
+
+
 
 button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
