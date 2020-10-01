@@ -109,7 +109,7 @@ top: 30%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    border: 3px solid brown;
+    border: 5px solid brown;
     background-color: #fff;
     border-radius: 5px;
 }

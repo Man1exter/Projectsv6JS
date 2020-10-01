@@ -10,13 +10,12 @@ const ele = document.querySelector(".ele");
 
 
 
-const bant1 = document.querySelector(".buttonX");
-const bant2 = document.querySelector(".buttonY");
-const bant3 = document.querySelector(".buttonZ");
-const tep = document.querySelector(".mon");
+const bant = document.querySelector(".buttonX");
+const bag = document.querySelector(".buttonY");
+const ban = document.querySelector(".buttonZ");
+const tepP = document.querySelector(".mon");
 
 let $size = 50;
-
 let $score;
 
 const sums = (first, second) => {
@@ -41,35 +40,29 @@ const positionY = () => {
 
 const ones = () => {
      $size += 5;
-     tep.style.fontSize = $size + 'px';
+     tepP.style.fontSize = $size + 'px';
 };
 const oneY = () => {
      $size -= 5;
-     tep.style.fontSize = $size - 'px';
+     tepP.style.fontSize = $size - 'px';
 };
 const oneX = () => {
-    
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+
+    tepP.style.color = `rgb(${r},${g},${b})`;
 };
 
 
-
-
-
-
-
-
-
-
-
+bant.addEventListener("click", ones);
+bag.addEventListener("click", oneY);
+ban.addEventListener("click", oneX);
 
 button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
 clicker.addEventListener("click", positionY);
 
-
-bant1.addEventListener("click", ones);
-bant2.addEventListener("click", oneY);
-bant3.addEventListener("click", oneX);
 
 sums(10,10);
 
