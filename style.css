@@ -65,7 +65,7 @@ span:hover{
 .zbz{
 z-index: 2;
 width: 49.9%;
-height: 650px;
+height: 500px;
 position: absolute;
 border: 1px solid yellow;
 }
@@ -73,14 +73,14 @@ border: 1px solid yellow;
 z-index: 1;
 position: absolute;
 width: 49.98%;
-height: 700px;
+height: 600px;
 }
 
 .fa-arrow-alt-circle-down{
    font-size: 50px;
     position: absolute;
     z-index: 5;
-    top: 95%;
+    top: 85%;
     left: 49%;
     transform: translate(-50%,);
     cursor: pointer;
@@ -88,4 +88,8 @@ height: 700px;
 }
 .fa-arrow-alt-circle-down:hover{
     color: blue;
+}
+.roll{
+    transform: rotate(180deg);
+    top: 122%;
 }
