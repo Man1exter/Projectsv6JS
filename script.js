@@ -10,6 +10,13 @@ const ele = document.querySelector(".ele");
 
 
 
+const bnt1 = document.querySelector(".buttonX");
+const bnt2 = document.querySelector(".buttonY");
+const bnt3 = document.querySelector(".buttonZ");
+const tep = document.querySelector(".mon");
+
+
+
 let $score;
 
 const sums = (first, second) => {
@@ -34,6 +41,11 @@ const positionY = () => {
 button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
 clicker.addEventListener("click", positionY);
+
+
+bnt1.addEventListener("click", ones);
+bnt2.addEventListener("click", oness);
+bnt3.addEventListener("click", onesss);
 
 sums(10,10);
 
