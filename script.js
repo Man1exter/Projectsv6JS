@@ -43,11 +43,11 @@ const ones = () => {
      $size += 5;
      tep.style.fontSize = $size + 'px';
 };
-const oness = () => {
+const oneY = () => {
      $size -= 5;
      tep.style.fontSize = $size - 'px';
 };
-const onesss = () => {
+const oneX = () => {
     
 };
 
@@ -68,8 +68,8 @@ clicker.addEventListener("click", positionY);
 
 
 bnt1.addEventListener("click", ones);
-bnt2.addEventListener("click", oness);
-bnt3.addEventListener("click", onesss);
+bnt2.addEventListener("click", oneY);
+bnt3.addEventListener("click", oneX);
 
 sums(10,10);
 
