@@ -99,3 +99,36 @@ top: 30%;
 .move{
     top: 66%;
 }
+.sq{
+    border: 2px solid rgb(255, 0, 0);
+    height: 250px;
+    background-color: rgb(44, 154, 190);
+}
+.mon{
+    top: 147%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid brown;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.buttonX,
+.buttonY,
+.buttonZ{
+    font-size: 40px;
+    left: 36%;
+    position: relative;
+    margin-left: 50px;
+    top: 30%;
+    cursor: pointer;
+    transition: .3s linear;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.buttonX:hover,
+.buttonY:hover,
+.buttonZ:hover{
+background-color: rgb(25, 199, 25);
+border: 3px solid blue;
+}
