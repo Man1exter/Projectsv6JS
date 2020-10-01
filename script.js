@@ -6,6 +6,7 @@ const span2 = document.querySelector(".two");
 
 
 const clicker = document.querySelector(".fa-arrow-alt-circle-down");
+const ele = document.querySelector(".ele");
 
 
 
@@ -26,7 +27,8 @@ const divide = () =>{
     span2.innerText = sumsNew;
 };
 const positionY = () => {
-     clicker.classList.toggle("roll")
+     clicker.classList.toggle("roll");
+     ele.classList.toggle("move");
 }
 
 button2.addEventListener("click", multiply);

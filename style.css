@@ -74,6 +74,7 @@ z-index: 1;
 position: absolute;
 width: 49.98%;
 height: 600px;
+transition: .3s linear;
 }
 
 .fa-arrow-alt-circle-down{
@@ -92,4 +93,7 @@ height: 600px;
 .roll{
     transform: rotate(180deg);
     top: 122%;
+}
+.move{
+    top: 66%;
 }
