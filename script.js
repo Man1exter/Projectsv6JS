@@ -10,9 +10,9 @@ const ele = document.querySelector(".ele");
 
 
 
-const bnt1 = document.querySelector(".buttonX");
-const bnt2 = document.querySelector(".buttonY");
-const bnt3 = document.querySelector(".buttonZ");
+const bant1 = document.querySelector(".buttonX");
+const bant2 = document.querySelector(".buttonY");
+const bant3 = document.querySelector(".buttonZ");
 const tep = document.querySelector(".mon");
 
 let $size = 50;
@@ -67,9 +67,9 @@ button1.addEventListener("click", divide);
 clicker.addEventListener("click", positionY);
 
 
-bnt1.addEventListener("click", ones);
-bnt2.addEventListener("click", oneY);
-bnt3.addEventListener("click", oneX);
+bant1.addEventListener("click", ones);
+bant2.addEventListener("click", oneY);
+bant3.addEventListener("click", oneX);
 
 sums(10,10);
 
