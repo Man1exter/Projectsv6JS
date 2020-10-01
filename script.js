@@ -44,7 +44,7 @@ const ones = () => {
 };
 const oneY = () => {
      $size -= 5;
-     tepP.style.fontSize = $size - 'px';
+     tepP.style.fontSize = $size + 'px';
 };
 const oneX = () => {
     const r = Math.floor(Math.random() * 255);
