@@ -25,9 +25,13 @@ const divide = () =>{
     const sumsNew = $score * 2;
     span2.innerText = sumsNew;
 };
+const positionY = () => {
+     clicker.classList.toggle("roll")
+}
 
 button2.addEventListener("click", multiply);
 button1.addEventListener("click", divide);
+clicker.addEventListener("click", positionY);
 
 sums(10,10);
 
