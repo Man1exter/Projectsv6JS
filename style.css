@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    height: 500vh;
+    height: 400vh;
     overflow-x: hidden;
     background-color: gray;
 }
@@ -62,6 +62,7 @@ span:hover{
  border: 5px solid green;
  margin-left: 25%;
  transition: .3s linear;
+
 }
 .zbz{
 z-index: 2;
@@ -103,9 +104,10 @@ top: 30%;
     border: 2px solid rgb(255, 0, 0);
     height: 250px;
     background-color: rgb(44, 154, 190);
+    margin-top: 250vh;
 }
 .mon{
-    top: 148%;
+    top: 400%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
